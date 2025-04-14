@@ -1,0 +1,55 @@
+Find the Largest Number 
+set largest number to 0 
+set input number to -1
+if input number is not 0: 
+ask the user to "enter a number (0 to stop"):"
+read input number 
+if the input number is greater than largest number 
+set largest number to input number
+stop 
+if output "the largest number is:", largest number
+Stop
+
+
+Request user to "Enter your name:" 
+print first_name
+then print first_name + "Hello, World" 
+Stop
+
+ 
+set count to 0 
+if input is not 0:
+request user to "Enter a number (0 to stop):"
+print input number 
+if input number is not 0:
+add input number to total 
+increase count by 1 
+stop 
+if count is greater than 0: 
+set average to total / count 
+print "The average is:", average 
+OR:
+print "No numbers were entered." 
+Stop
+
+
+Set groceryList to ["Milk, "Bread", "Washing powder"," Fairy", "Pizza", "Fruits"]
+Set itemsBought to ["Bread", "Pizza"] / Items already bought
+Remove items in itemsBought from groceryList 
+Sort groceryList in alphabetical order 
+Display "Items left to buy:"
+for each item in groceryList:
+Display item
+Stop
+
+
+Start
+// Step 1: read inputs 
+Read X, Y 
+// Step 2:  Conduct calculations 
+S = X + Y
+A = S / 2
+P = X * Y 
+// Step 3: Display results 
+Write S, A, P 
+Stop
